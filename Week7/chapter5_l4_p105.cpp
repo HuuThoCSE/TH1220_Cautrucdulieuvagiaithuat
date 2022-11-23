@@ -1,4 +1,8 @@
 //chapter5_l4_p105
-#include<iostream>
-using namespace std;
+#include "UndireGraph.h"
+
+main(){
+	Graph g;
+	Initialize(g);
+}
 
