@@ -112,7 +112,7 @@ main(){
 	ReadList(L);
 	cout << "=====IN DANH SACH LIEN KET====="<<endl;
 	PrintList(L);
-	cout << "Phan tu dau tien trong danh sach la: ";
+	cout << "\nPhan tu dau tien trong danh sach la: ";
 	cout << First(L)->Element<<endl;
 	cout << "Phan tu cuoi cung trong danh sach la: ";
 	cout << Last(L)->Element<<endl;
@@ -133,7 +133,7 @@ main(){
 		InsertList(X, P, L);
 	cout << "=====DANH SACH LIEN KET SAU KHI THEM====="<<endl;
 	PrintList(L);
-	cout << "Ban muon xoa phan tu sau phan tu nao: ";
+	cout << "\nBan muon xoa phan tu sau phan tu nao: ";
 	cin >> ND;
 	P = Locate(ND, L);
 	if(P=NULL) 
