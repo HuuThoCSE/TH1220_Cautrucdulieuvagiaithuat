@@ -58,7 +58,7 @@ void PrintList(List L){
 		cout<<"DS rong"<<endl;
 	else
 		while(L->Next!=NULL){
-			cout<<L->Next->Element<<'\t ';
+			cout<<L->Next->Element<<'\t';
 			L=L->Next;
 		}
 }
