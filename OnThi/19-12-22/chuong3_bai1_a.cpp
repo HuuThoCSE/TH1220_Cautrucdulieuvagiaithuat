@@ -15,7 +15,7 @@ main(){
 	MakeNullList(L);
 	
 	// Nhap DS
-	ReadList(L);
+	ThemDauDS(1);
 	
 	// In DS
 	cout<<"DS 1: ";
